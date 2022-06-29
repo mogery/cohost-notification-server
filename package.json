@@ -1,0 +1,25 @@
+{
+  "name": "cohost-notification-server",
+  "version": "1.0.0",
+  "description": "Deliver cohost notifications to an IFTTT Webhook.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogery/cohost-notification-server.git"
+  },
+  "keywords": [
+    "cohost"
+  ],
+  "author": "mogery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mogery/cohost-notification-server/issues"
+  },
+  "homepage": "https://github.com/mogery/cohost-notification-server#readme",
+  "dependencies": {
+    "cohost": "^0.0.2",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}
